@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+      <title>My Third Website</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+
+
+
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Paraglide gym</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home<span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Facilities
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Aerobics</a></li>
+            <li><a class="dropdown-item" href="#">Yoga</a></li>
+              <li><a class="dropdown-item" href="#">Well Eqipped Machines</a></li>
+                <li><a class="dropdown-item" href="#">Personal Training</a></li>
+                  <li><a class="dropdown-item" href="#">Online Training</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Customer Feedback</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search"  placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-danger" type="submit">Search</button>
+      </form>
+      <div class="mx-2">
+        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+          <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Login To Paraglide</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Button trigger modal --
+
+
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signupModalLabel">Get An Paraglide account</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="cexampleInputPassword1" class="form-label">ConfirmPassword</label>
+            <input type="password" class="form-control" id="cexampleInputPassword1">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Create Account</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://fitnessatgurnard.co.uk/wp-content/uploads/2017/07/Gym-at-Gurnard2-2000x600.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Welcome To Paraglide Gym</h2>
+        <p>If you want something you've never had, you must be willing to do something you've never done.</p>
+        <button type="button" class="btn btn-danger">Fitness</button>
+<button type="button" class="btn btn-primary">Health</button>
+<button type="button" class="btn btn-success">Personality</button>
+
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://umo.edu/wp-content/uploads/2019/10/ce-pwc-banner-2000x600.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Best Unisex Gym</h2>
+        <p>Strength does not come from physical capacity. It comes from an indomitable will.</p>
+        <button type="button" class="btn btn-danger">Fitness</button>
+<button type="button" class="btn btn-primary">Health</button>
+<button type="button" class="btn btn-success">Personality</button>
+
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.bracknellglazing.co.uk/wp-content/uploads/2020/02/shutterstock_1022481220.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Fastest Transformation Of Body</h2>
+        <p>If you want something you've never had, you must be willing to do something you've never done.</p>
+        <button type="button" class="btn btn-danger">Fitness</button>
+<button type="button" class="btn btn-primary">Health</button>
+<button type="button" class="btn btn-success">Personality</button>
+
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="container my-4"><div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Since 2010</strong>
+          <h3 class="mb-0">Best Results</h3>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto"> We believe no matter what the level of fitness for a given client, anybody can benefit from our program.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+        <img class="bd-placeholder-img" width="200" height="250"src="data:image/jpeg;base64,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" alt="">
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Extras</strong>
+          <h3 class="mb-0">Additional Diet Plan</h3>
+          <div class="mb-1 text-muted">Nov 11</div>
+          <p class="mb-auto">Focussing on the diet you have is an important step towards fitness.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img class="bd-placeholder-img" width="200" height="250"src="https://cdn.mos.cms.futurecdn.net/t4LzQQL75En7bRD7iyxNWd.jpg" alt="">
+
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
